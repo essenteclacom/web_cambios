@@ -13,7 +13,7 @@
                     </h1>
                     <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
-                            CyC CAMBIOS S.A. es una casa de cambio autorizada, regulada y supervisada por el Banco Central de la República Argentina (BCRA) desde 2018 y miembro de la Cámara Argentina de Casas y Agencias de Cambio (CADECAC).
+                            CyC CAMBIOS S.A. es una casa de cambio autorizada,<br>regulada y supervisada por el Banco Central de la República<br>Argentina (BCRA) desde 2018 y miembro de la<br><b>Cámara Argentina de Casas y Agencias de Cambio (CADECAC).</b>
                         </p>
                     </div>
                     {{-- <div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
