@@ -41,21 +41,15 @@
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
-                            <a href="/seleccionartipocuenta" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
-                                Abrir cuenta
-                            </a>
-                            <a href="/iniciarsesion" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
-                                Ingresar
-                            </a>
                             <div class="hidden lg:block">
                                 <ul class="nav-lang flex items-center">
-                                    <li class="text-color-cucchiara group pl-6">
+                                    <li class="text-primary group pl-6">
                                         <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
                                             ESP
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
                                         <ul>
-                                            <li class="text-color-cucchiara text-base font-bold uppercase w-20">
+                                            <li class="text-primary text-base font-bold uppercase w-20">
                                                 <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/eng">
                                                     ENG
                                                 </a>
@@ -66,7 +60,7 @@
                             </div>
                             <div class="block lg:hidden">
                                 <button @click="mobileMenu = true">
-                                    <i class="bx bx-menu text-4xl text-color-cucchiara"></i>
+                                    <i class="bx bx-menu text-4xl text-primary"></i>
                                 </button>
                             </div>
                         </div>
@@ -77,28 +71,20 @@
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-28">
-                                    <a href="/nosotros">
-                                        <span @if(request()->is('nosotros')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Nosotros</span>
-                                    </a>
+
                                 </li>
                                 <li class="group pl-28">
-                                    <a href="/servicios">
-                                        <span @if(request()->is('servicios')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Servicios</span>
-                                    </a>
+
                                 </li>
                                 <li class="group pl-28">
-                                    <a href="/inicio">
-                                        <span @if(request()->is('inicio')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Fondos</span>
-                                    </a>
+
                                 </li>
                                 <li class="group pl-28">
-                                    <a href="/investigacion">
-                                        <span @if(request()->is('investigacion')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Research</span>
-                                    </a>
+
                                 </li>
                                 <li class="group pl-28">
                                     <a href="/inicio">
-                                        <span @if(request()->is('inicio')) class=" hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Opere online</span>
+                                        <span @if(request()->is('inicio')) class=" hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary" @endif>Operaciones online</span>
                                         <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
                                     </a>
                                 </li>
@@ -154,7 +140,7 @@
                     @endif
                     <div class="container bg-contact" id="contact">
                         <div class="relative xs:top-minus-1-2 top-minus-11">
-                            <h2 class="text-color-cucchiara text-left font-bolder font-body xxs:text-3xl xs:text-3xl lg:text-5xl text-primary">
+                            <h2 class="text-primary text-left font-bolder font-body xxs:text-3xl xs:text-3xl lg:text-5xl text-primary">
                                 Contacto
                             </h2>
                         </div>
@@ -181,7 +167,7 @@
                 {{-- end contact --}}
                 {{-- map --}}
                 <a href="https://goo.gl/maps/aD9gLy3DTLgALnwt5" target="blank">
-                    <div class="bg-cover bg-center bg-no-repeat xxs:h-40 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:w-full border-color-cucchiara border-y-4" style="background-image: url({{ asset('/img/mapa_footer.png')}})"></div>
+                    <div class="bg-cover bg-center bg-no-repeat xxs:h-40 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:w-full border-primary border-y-4" style="background-image: url({{ asset('/img/mapa_footer.png')}})"></div>
                 </a>
                 {{-- end map --}}
                 {{-- footer --}}
@@ -194,18 +180,15 @@
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
                                     <a href="/normativas">
-                                        <div class="pt-1 font-bold">Normativas<br/>Aranceles y comisiones<br/>Cuentas habilitadas</div>
+                                        <div class="pt-1 font-bold">Normativas</div>
                                     </a>
                                 </div>
                                 <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-4 sm:ml-8 md:ml-8 lg:ml-0">
-                                    info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330
+                                    info@cyccambios.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394-7423
                                 </div>
                             </div>
                             <div class="flex xxs:items-end xs:items-center sm:items-center md:items-center lg:items-start xxs:justify-end xs:justify-end sm:justify-end md:justify-end lg:justify-between xxs:flex-col-reverse xs:flex-col-reverse xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row xxs:w-2/5 xs:w-2/5 sm:w-2/5 md:w-2/5 lg:w-1/4 lg:pl-4 xl:pl-12">
-                                <div class="flex flex-row pt-1 border-t-footer xxs:mt-10 xs:mt-10 sm:mt-10 md:mt-10 lg:mt-2 xs:pb-8">
-                                    <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white pr-6"></i>
-                                    <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
-                                </div>
+                                <div class="flex flex-row pt-1 border-t-footer xxs:mt-10 xs:mt-10 sm:mt-10 md:mt-10 lg:mt-2 xs:pb-8"></div>
                                 <div class="xs:pb-8">
                                     <img src="{{ asset('/img/logos_Data Fiscal.png') }}" class="w-20" alt="footer_data_fiscal"/>
                                 </div>
@@ -259,8 +242,9 @@
                             </div>
                         </div>
                         <div class="text-center py-6">
-                            <div> ALyC Integral registro Nro. 265 CNV |Miembro de BYMA Nro. 18 | Miembro de ROFEX Nro. 472 | Miembro de MAE Nro. 672</div>
-                            <div>© 2023 Cuchiarra Todos los derechos reservados. Diseño y desarollo porFolklore</div>
+                            <div>
+                                © 2023 Cucchiara Todos los derechos reservados. Diseño y desarollo porFolklore
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -371,7 +371,7 @@ select{
     --tw-backdrop-invert: ;
     --tw-backdrop-opacity: ;
     --tw-backdrop-saturate: ;
-    --tw-backdrop-sepia: 
+    --tw-backdrop-sepia:
 }
 .container{
     margin-left:auto;
@@ -1065,8 +1065,7 @@ html{
     border-color:rgb(230 229 236/var(--tw-border-opacity))
 }
 .border-primary{
-    --tw-border-opacity:1;
-    border-color:rgb(28 64 195/var(--tw-border-opacity))
+    border-color:#414141
 }
 .border-grey-40{
     --tw-border-opacity:1;
@@ -1094,7 +1093,7 @@ html{
     content: "";
     width: 60%;
     height: 3px;
-    background: rgb(17, 32, 140);
+    background: #414141;
     position: absolute;
     top: 0;
     left: 0;
@@ -1104,8 +1103,7 @@ html{
 
 
 .bg-primary{
-    --tw-bg-opacity:1;
-    background-color:rgb(28 64 195/var(--tw-bg-opacity))
+    background-color:#414141
 }
 .bg-secondary{
     background-color:rgb(5, 9, 78)
@@ -1125,8 +1123,8 @@ html{
 .bg-button-reg{
     background-color: rgb(239, 239, 239);
 }
-.gradient-cucciara{
-    background-image: linear-gradient(to right, #112089 , #2863F4);
+.gradient-primary{
+    background-image: linear-gradient(to right, #DFDFDF , #818183);
   }
 .bg-transparent{
     background-color:transparent
@@ -1157,7 +1155,7 @@ html{
 }
 .bg-cyan-20{
     --tw-bg-opacity:1;
-    background-color:rgb(141 222 247/var(--tw-bg-opacity)) 
+    background-color:rgb(141 222 247/var(--tw-bg-opacity))
 }
 .bg-button {
     background-color: #8ddef7
@@ -1423,8 +1421,7 @@ html{
     color:rgb(255 255 255/var(--tw-text-opacity))
 }
 .text-primary{
-    --tw-text-opacity:1;
-    color:rgb(28 64 195/var(--tw-text-opacity))
+    color:#414141
 }
 .text-color-cucchiara{
     color:rgb(17, 32, 140)
@@ -1691,13 +1688,13 @@ ul, ol {
 .w3rcontainer{
     border: 1px solid rgb(17, 32, 140);
     border-radius: 2px;
- } 
+ }
  .hover-underline-animation {
    display: inline-block;
    position: relative;
-   color:rgb(17, 32, 140);
+   color:#414141;
  }
- 
+
  .hover-underline-animation:after {
    content: '';
    position: absolute;
@@ -1706,11 +1703,11 @@ ul, ol {
    height: 2px;
    bottom: 0;
    left: 0;
-   background-color: rgb(17, 32, 140);
+   background-color: #414141;
    transform-origin: bottom right;
    transition: transform 0.25s ease-out;
  }
- 
+
  .hover-underline-animation:hover:after {
    transform: scaleX(1);
    transform-origin: bottom left;
@@ -1721,7 +1718,7 @@ ul, ol {
 }
 /*CSS to animated flip 3d cards*/
 .wrapper-card, .single-card {
-	position: relative; 
+	position: relative;
 }
 .wrapper-card {
 	perspective: 900px;
@@ -1736,7 +1733,7 @@ ul, ol {
 .front-card, .back-card {
 	position: relative;
 	top: 0;
-	left: 0; 
+	left: 0;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 }
@@ -1842,16 +1839,16 @@ ul, ol {
     }
     .xxs\:h-16{
         height:4rem
-    }  
+    }
     .xxs\:h-20{
         height:5rem
-    } 
+    }
     .xxs\:h-24{
         height:6rem
     }
     .xxs\:h-28{
         height:7rem
-    }  
+    }
     .xxs\:h-32{
         height:8rem
     }
@@ -1939,7 +1936,7 @@ ul, ol {
     }
     .xs\:justify-end {
         justify-content: flex-end;
-    }	
+    }
     .xxs\:text-center{
         text-align:center
     }
@@ -2213,7 +2210,7 @@ ul, ol {
     }
     .xs\:h-c-4{
         height:4.25rem
-    }  
+    }
     .xs\:h-20{
         height:5rem
     }
@@ -2292,7 +2289,7 @@ ul, ol {
     }
     .xs\:justify-end {
         justify-content: flex-end;
-    }	
+    }
     .xs\:text-center{
         text-align:center
     }
@@ -2763,7 +2760,7 @@ ul, ol {
     }
 }
 /*lg*/
-@media screen and (min-width:1024px) { 
+@media screen and (min-width:1024px) {
     .container{
         max-width:1024px;
         padding-left:3rem;
@@ -2862,7 +2859,7 @@ ul, ol {
     }
     .lg\:grid-flow-col{
         grid-auto-flow: column;
-    }	
+    }
     .lg\:grid-cols-3{
         grid-template-columns:repeat(3,minmax(0,1fr))
     }
@@ -2886,7 +2883,7 @@ ul, ol {
     .lg\:border-t-2{
         border-top-width:2px
     }
-    .lg\:px-9{	
+    .lg\:px-9{
         padding-left: 2.25rem; /* 36px */
         padding-right: 2.25rem; /* 36px */
     }
