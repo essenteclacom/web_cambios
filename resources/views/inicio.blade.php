@@ -97,7 +97,7 @@
     <div class="bg-primary">
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
             <div>
-                <h2 class="font-body xxs:pb-8 text-base text-white">
+                <h2 class="font-body xxs:pb-8 text-xl text-white pr-40">
                     Para acceder al Mercado Libre de Cambios los clientes deben dar cumplimiento a los requisitos de identificación y a las normas sobre “Prevención del lavado de activos, del financiamiento del terrorismo y otras actividades ilícitas”.
                 </h2>
             </div>

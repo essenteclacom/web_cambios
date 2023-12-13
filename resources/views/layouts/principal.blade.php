@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-        <title>CUCCHIARA - @yield('title')</title>
+        <title>CYC CAMBIOS - @yield('title')</title>
         <meta property="og:title" content="Homepage | Cucchiara"/>
         <meta property="og:locale" content="en_US"/>
         <link rel="canonical" href="//"/>
@@ -12,7 +12,7 @@
         <meta name="description" content="Agente de Negociación Liquidación y Compensación."/>
         <link rel="icon" type="image/png" href="{{ asset('/img/favicon-96x96.png') }}"/>
         <meta name="theme-color" content="#5540af"/>
-        <meta property="og:site_name" content="Cucchiara"/>
+        <meta property="og:site_name" content="CYC Cambios"/>
         <meta property="og:image" content="{{ asset('/img/Fondocompletolinea.jpg') }}"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@tailwindmade"/>
