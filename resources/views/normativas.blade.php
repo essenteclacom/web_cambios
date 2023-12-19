@@ -27,10 +27,10 @@
                         </div>
                     </div>
                     <div>
-                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded w-72 mb-2">
+                        <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded w-72 mb-2">
                             Texto ordenado<br>exterior y cambios
                         </a>
-                        <a class="block text-color-cucchiara bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded w-72 mb-2">
+                        <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded w-72 mb-2">
                             Protección de<br>los usuarios
                         </a>
                     </div>

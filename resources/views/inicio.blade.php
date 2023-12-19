@@ -68,24 +68,35 @@
                     </div>
                 </div>
             </div>
-            <div class="grid grid-cols-4 gap-0 justify-content items-center mt-4">
+            <div class="grid grid-cols-4 gap-0 justify-content items-start mt-4">
                 <div class="">
-                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
+                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-4">
                         Compra y venta
                     </h4>
+                    <p class="text-left">
+                        · De moneda y billetes extranjeros.<br/>
+                        · De oro amonedado y en barras de “buena entrega”<br/>
+                        · Y emisión de cheques; transferencias postales, telegráficas y telefónicas; vales postales, giros y cheques de viajero, en moneda extranjera.
+                    </p>
                 </div>
                 <div class="">
-                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-8">
+                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-4">
                         Ingreso y egreso
                     </h4>
+                    <p class="text-left">
+                        Del país de billetes extranjeros y oro amonedado y en barras de “buena entrega”.
+                    </p>
                 </div>
                 <div class="">
-                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
+                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-4">
                         Liquidación
                     </h4>
+                    <p>
+                        De Importaciones/Exportaciones de bienes o servicios, deudas/créditos comerciales, etc.
+                    </p>
                 </div>
                 <div class="">
-                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl">
+                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-4">
                         Arbitrajes<br/>con residentes
                     </h4>
                 </div>

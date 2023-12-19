@@ -5,12 +5,12 @@
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
         <title>CYC CAMBIOS - @yield('title')</title>
-        <meta property="og:title" content="Homepage | Cucchiara"/>
+        <meta property="og:title" content="Homepage | CYC Cambios"/>
         <meta property="og:locale" content="en_US"/>
         <link rel="canonical" href="//"/>
         <meta property="og:url" content="//"/>
         <meta name="description" content="Agente de Negociación Liquidación y Compensación."/>
-        <link rel="icon" type="image/png" href="{{ asset('/img/favicon-96x96.png') }}"/>
+        <link rel="icon" type="image/png" href="{{ asset('/img/favicon.png') }}"/>
         <meta name="theme-color" content="#5540af"/>
         <meta property="og:site_name" content="CYC Cambios"/>
         <meta property="og:image" content="{{ asset('/img/Fondocompletolinea.jpg') }}"/>
@@ -194,47 +194,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grid justify-items-center items-center gap-0 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-9 py-6">
-                            <div>
-                                <a href="https://www.byma.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_01.png') }}" class="" alt="footer_01"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://cajadevalores.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_02.png') }}" class="" alt="footer_02"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.matbarofex.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_03.png') }}" class="" alt="footer_03"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.mav-sa.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_05.png') }}" class="" alt="footer_05"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.emta.org/markets/markets-a-g/argentina/" target="blank">
-                                    <div><img src="{{ asset('/img/footer_06.png') }}" class="" alt="footer_06"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="http://www.cnv.gov.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="" alt="footer_08"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="http://www.cadab.org.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_07.png') }}" class="" alt="footer_07"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.mae.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_04.png') }}" class="lg:w-28 lg:max-w-4xl" alt="footer_04"/></div>
-                                </a>
-                            </div>
+                        <div class="grid justify-items-center items-center gap-0 grid-cols-1 py-6">
                             <div class="">
                                 <a class="" href="https://www.bcra.gob.ar/" target="_blank">
                                     <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:max-w-xs xl:max-w-xs md:w-full lg:w-40 xl:w-60 md:ml-0 lg:ml-12 xl:ml-20" alt="footer_07"/></div>
