@@ -194,12 +194,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="grid justify-items-center items-center gap-0 grid-cols-1 py-6">
-                            <div class="">
-                                <a class="" href="https://www.bcra.gob.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:max-w-xs xl:max-w-xs md:w-full lg:w-40 xl:w-60 md:ml-0 lg:ml-12 xl:ml-20" alt="footer_07"/></div>
-                                </a>
-                            </div>
+                        <div class="border-menu-line-top-moregrey mt-8">
+                            
                         </div>
                         <div class="text-center py-6">
                             <div>

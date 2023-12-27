@@ -78,6 +78,10 @@ button,select{
     border: solid 1px;
     border-color: rgb(141 222 247/var(--tw-bg-opacity));
 }
+.border-menu-line-top-moregrey{
+    border-top: solid 2px;
+    border-color: #E5E5E5;
+}
 .border-menu-line-top{
     border-top: solid 2px;
     border-color: rgb(242 242 242/var(--tw-bg-opacity));
