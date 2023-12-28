@@ -50,7 +50,7 @@
                                         </a>
                                         <ul>
                                             <li class="text-primary text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/eng">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-1 pl-4" href="/eng">
                                                     ENG
                                                 </a>
                                             </li>
@@ -65,7 +65,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container flex items-center justify-between border-menu-line-top mt-6 hidden lg:flex">
+                    <div class="container flex items-center justify-between border-menu-line-top mt-8 hidden lg:flex">
                         <div>
                         </div>
                         <div class="hidden lg:block">
@@ -195,7 +195,7 @@
                             </div>
                         </div>
                         <div class="border-menu-line-top-moregrey mt-8">
-                            
+
                         </div>
                         <div class="text-center py-6">
                             <div>
