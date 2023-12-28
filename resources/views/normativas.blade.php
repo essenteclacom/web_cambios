@@ -25,6 +25,9 @@
                         <div class="text-base xxs:text-center xs:text-center sm:text-left md:text-left lg:text-left xl:text-left max-w-3xl">
                             CyC CAMBIOS S.A. se encuentra regulada por las normas de Exterior y Cambios del Banco Central de la República Argentina. El BCRA es la autoridad de fiscalización y registro en todo el territorio de la República Argentina de las entidades cambiarias. Tiene facultades para dictar la reglamentación que fuere necesaria para complementar las disposiciones vigentes, resolver casos no previstos en la Ley o el Decreto e interpretar las normas allí incluidas dentro del contexto económico imperante.
                         </div>
+                        <div class="pt-10 flex justify-center items-center">
+                            <img src="{{ asset('/img/coin.png') }}" alt="coin">
+                        </div>
                     </div>
                     <div class="xxs:pt-10 xs:pt-10 sm:pt-0">
                         <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded w-72 mb-2">
