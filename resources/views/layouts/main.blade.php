@@ -152,7 +152,7 @@
                             </ul>
                         </div>
                     @endif
-                    <div class="container bg-contact" id="contact">
+                    <div class="container bg-contact sm:pl-32 sm:pr-32 xxs:pl-8 xxs:pr-8" id="contact">
                         <div class="relative xs:top-minus-1-2 top-minus-11">
                             <h2 class="text-color-cucchiara text-left font-bolder font-body xxs:text-3xl xs:text-3xl lg:text-5xl text-primary">
                                 Contact

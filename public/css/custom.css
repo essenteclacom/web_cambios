@@ -1760,6 +1760,12 @@ ul, ol {
     .xxs\:left-4{
         left:1rem
     }
+    .xxs\:pl-8{
+        padding-left:2rem
+    }
+    .xxs\:pr-8{
+        padding-right:2rem
+    }
     .xxs\:pl-20{
         padding-left:5rem
     }
