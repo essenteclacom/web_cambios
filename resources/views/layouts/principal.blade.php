@@ -199,7 +199,7 @@
                         </div>
                         <div class="text-center py-6">
                             <div>
-                                © 2023 Cucchiara Todos los derechos reservados. Diseño y desarollo porFolklore
+                                © 2023 Cucchiara Todos los derechos reservados. Diseño y desarollo por Folklore
                             </div>
                         </div>
                     </div>

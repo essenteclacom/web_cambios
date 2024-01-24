@@ -46,59 +46,54 @@
             </span>
         </div>
         <div class="mx-auto bg-white xxs:py-12 xs:py-20 sm:py-16 md:py-12 lg:py-20 xl:py-20">
-            <div class="grid grid-cols-4 gap-0 content-start">
+            <div class="grid sm:grid-cols-2 md:grid-cols-3 gap-2 content-start">
                 <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
                     <div>
-                        <img src="{{ asset('/img/iconphone.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                        <img src="{{ asset('/img/icon-01.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
                     </div>
-                </div>
-                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
-                    <div>
-                        <img src="{{ asset('/img/iconarrows.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
-                    </div>
-                </div>
-                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
-                    <div>
-                        <img src="{{ asset('/img/iconbars.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
-                    </div>
-                </div>
-                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
-                    <div>
-                        <img src="{{ asset('/img/iconboxes.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon puzzle"/>
-                    </div>
-                </div>
-            </div>
-            <div class="grid grid-cols-4 gap-0 justify-content items-start mt-4">
-                <div class="">
-                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-4">
-                        Compra y venta
-                    </h4>
-                    <p class="text-left">
-                        · De moneda y billetes extranjeros.<br/>
-                        · De oro amonedado y en barras de “buena entrega”<br/>
-                        · Y emisión de cheques; transferencias postales, telegráficas y telefónicas; vales postales, giros y cheques de viajero, en moneda extranjera.
+                    <p class="text-center">
+                        Compra y venta de moneda y billetes extranjeros
                     </p>
                 </div>
-                <div class="">
-                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-4">
-                        Ingreso y egreso
-                    </h4>
-                    <p class="text-left">
-                        Del país de billetes extranjeros y oro amonedado y en barras de “buena entrega”.
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                    <div>
+                        <img src="{{ asset('/img/icon-02.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
+                    </div>
+                    <p class="text-center">
+                        Compra, venta y emisión de cheques; transferencias postales, telegráficas y telefónicas; vales postales, giros y cheques de viajero, en moneda extranjera.
                     </p>
                 </div>
-                <div class="">
-                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-4">
-                        Liquidación
-                    </h4>
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                    <div>
+                        <img src="{{ asset('/img/icon-03.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                    </div>
                     <p>
-                        De Importaciones/Exportaciones de bienes o servicios, deudas/créditos comerciales, etc.
+                        Compra y venta de oro amonedado y en barras de “buena entrega”
                     </p>
                 </div>
-                <div class="">
-                    <h4 class="text-primary font-body font-bold text-center xxs:text-xxs xs:text-base lg:text-xl pb-4">
-                        Arbitrajes<br/>con residentes
-                    </h4>
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                    <div>
+                        <img src="{{ asset('/img/icon-04.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon project"/>
+                    </div>
+                    <p class="text-center">
+                        Ingreso y egreso del país de billetes extranjeros y oro amonedado y en barras de “buena entrega”
+                    </p>
+                </div>
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                    <div>
+                        <img src="{{ asset('/img/icon-05.png') }}" class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon award"/>
+                    </div>
+                    <p class="text-center">
+                        Arbitrajes con residentes
+                    </p>
+                </div>
+                <div class="flex flex-col items-center justify-start text-center md:mt-10 md:flex-col md:text-center lg:mt-0">
+                    <div>
+                        <img src="{{ asset('/img/icon-06.png') }}"class="mx-auto xxs:h-12 xs:h-20 md:h-24 lg:h-32 xl:h-44" alt="icon happy clients"/>
+                    </div>
+                    <p>
+                        Liquidación de Importaciones / Exportaciones de bienes o servicios, deudas / créditos comerciales, etc.
+                    </p>
                 </div>
             </div>
         </div>
@@ -108,8 +103,8 @@
     <div class="bg-primary">
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
             <div>
-                <h2 class="font-body xxs:pb-8 text-xl text-white pr-40">
-                    Para acceder al Mercado Libre de Cambios los clientes deben dar cumplimiento a los requisitos de identificación y a las normas sobre “Prevención del lavado de activos, del financiamiento del terrorismo y otras actividades ilícitas”.
+                <h2 class="font-body font-bolder xxs:pb-8 text-4xl text-white xs:pr-0 sm:pr-40">
+                    ¿Qué necesitás para realizar una operación?
                 </h2>
             </div>
             <div class="flex xxs:gap-0 sm:gap-2">
@@ -121,7 +116,7 @@
                                     <img src="{{ asset('/img/personas.png') }}" alt="development icon"/>
                                 </div>
                                 <div class="text-center">
-                                    <h3 class="font-body font-semibold text-white xxs:text-base xs:text-base lg:text-3xl sm:text-xl">
+                                    <h3 class="font-body text-white xxs:text-base xs:text-base lg:text-2xl sm:text-xl">
                                         Requisitos<br/>de identificación
                                     </h3>
                                 </div>
@@ -129,14 +124,17 @@
                         </div>
                         <div class="back-card">
                             <div class="gradient-primary rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
-                                <div class="text-left text-white xs:px-2 sm:px-2 xxs:pt-1 xs:pt-1 sm:pt-1 md:pt-1 md:px-2 lg:px-2 lg:pt-1">
+                                <div class="text-left text-white xs:px-2 sm:px-2 xxs:pt-1 xs:pt-1 sm:pt-1 md:pt-1 md:px-2 lg:pl-5 lg:pt-2">
                                     <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
-                                        · ARGENTINOS y RESIDENTES: DNI vigente.<br/>
-                                        · RESIDENTES PRECARIOS: Resolución DNM y documento especificado.<br/>
-                                        · NO RESIDENTES: Pasaporte.<br/>
-                                        <b>Excepciones para Mercosur:</b> DNI, Cédula o documento de viaje con constancia de ingreso sellada por DNM.<br/><br/>
-                                        <u>Prevención de actividades ilícitas:</u> Medidas para evitar lavado de activos, financiamiento del terrorismo, y otras actividades ilícitas.
-                                        Transacciones de montos elevados requieren documentación adicional que debe permitir constatar la actividad económica y el origen de los fondos.
+                                        <b>· Argeninos y Residentes:</b> DNI vigente.<br/>
+                                        <b>· Residentes Precarios:</b> Resolución DNM y documento especificado.<br/>
+                                        <b>· No Residentes:</b> Pasaporte.<br/>
+                                        <b>· Excepciones para Mercosur:</b> DNI, Cédula o documento de viaje con constancia de ingreso sellada por DNM.<br/>
+                                    </p>
+                                </div>
+                                <div class="text-left text-white pt-2 lg:pl-2">
+                                    <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
+                                        <u>Prevención de actividades ilícitas:</u>  Medidas para evitar lavado de activos, financiamiento del terrorismo, y otras actividades ilícitas. Las transacciones de montos elevados requieren documentación adicional que debe permitir constatar la actividad económica y el origen de los fondos.
                                     </p>
                                 </div>
                                 <div class="text-right xs:pt-0-5 lg:pt-8 px-9 pb-4 underline underline-offset-4">
