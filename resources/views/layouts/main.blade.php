@@ -4,15 +4,15 @@
         <meta charset="utf-8" />
         <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible"/>
         <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
-        <title>CUCCHIARA - @yield('title')</title>
-        <meta property="og:title" content="Homepage | Cucchiara"/>
+        <title>CYC CAMBIOS - @yield('title')</title>
+        <meta property="og:title" content="Homepage | CYC Cambios"/>
         <meta property="og:locale" content="en_US"/>
         <link rel="canonical" href="//"/>
         <meta property="og:url" content="//"/>
         <meta name="description" content="Agente de Negociación Liquidación y Compensación."/>
-        <link rel="icon" type="image/png" href="{{ asset('/img/favicon-96x96.png') }}"/>
+        <link rel="icon" type="image/png" href="{{ asset('/img/favicon.png') }}"/>
         <meta name="theme-color" content="#5540af"/>
-        <meta property="og:site_name" content="Cucchiara"/>
+        <meta property="og:site_name" content="CYC Cambios"/>
         <meta property="og:image" content="{{ asset('/img/Fondocompletolinea.jpg') }}"/>
         <meta name="twitter:card" content="summary_large_image"/>
         <meta name="twitter:site" content="@tailwindmade"/>
@@ -36,27 +36,21 @@
                 <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white justify-center">
                     <div class="container flex items-center justify-between">
                         <div>
-                            <a href="/home">
+                            <a href="/inicio">
                                 <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
                             </a>
                         </div>
                         <div class="flex justify-right flex-end flex-row items-center">
-                            <a href="/selectaccounttype" class="font-body text-color-cucchiara flex items-center justify-center rounded bg-white button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-cyan-20">
-                                Open Account
-                            </a>
-                            <a href="/login" class="font-body ml-1 text-color-cucchiara flex items-center justify-center rounded bg-cyan-20 button-border-color xxs:text-xs xxs:px-1 xs:px-5 md:px-8 lg:px-8 xxs:py-1 xs:py-2 sm:py-2 md:py-2 lg:py-1 xs:text-base lg:text-base font-bold hover:bg-white">
-                                Log in
-                            </a>
                             <div class="hidden lg:block">
                                 <ul class="nav-lang flex items-center">
-                                    <li class="text-color-cucchiara group pl-6">
-                                        <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
+                                    <li class="text-primary group pl-6">
+                                        <a class="flex items-center justify-center rounded-md bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
                                             ENG
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
                                         <ul>
-                                            <li class="text-color-cucchiara text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-2 pl-4" href="/esp">
+                                            <li class="text-primary text-base font-bold uppercase w-20">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded-md pr-41-custom py-1 pl-4" href="/eng">
                                                     ESP
                                                 </a>
                                             </li>
@@ -66,39 +60,31 @@
                             </div>
                             <div class="block lg:hidden">
                                 <button @click="mobileMenu = true">
-                                    <i class="bx bx-menu text-4xl text-color-cucchiara"></i>
+                                    <i class="bx bx-menu text-4xl text-primary"></i>
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div class="container flex items-center justify-between border-menu-line-top mt-6 hidden lg:flex">
+                    <div class="container flex items-center justify-between border-menu-line-top mt-8 hidden lg:flex">
                         <div>
                         </div>
                         <div class="hidden lg:block">
                             <ul class="flex items-center pt-5">
                                 <li class="group pl-28">
-                                    <a href="/aboutus">
-                                        <span @if(request()->is('aboutus')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>About US</span>
-                                    </a>
+
                                 </li>
                                 <li class="group pl-28">
-                                    <a href="/services">
-                                        <span @if(request()->is('services')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Services</span>
-                                    </a>
+
                                 </li>
                                 <li class="group pl-28">
-                                    <a href="/home">
-                                        <span @if(request()->is('home')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Mutual Funds</span>
-                                    </a>
+
                                 </li>
                                 <li class="group pl-28">
-                                    <a href="/research">
-                                        <span @if(request()->is('research')) class="selected-menu-underline hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Research</span>
-                                    </a>
+
                                 </li>
                                 <li class="group pl-28">
                                     <a href="/home">
-                                        <span @if(request()->is('home')) class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary text-color-cucchiara" @endif>Trade online</span>
+                                        <span @if(request()->is('inicio')) class=" hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary" @else class="hover-underline-animation cursor-pointer pt-0.5 font-body font-bold text-primary" @endif>Online operations</span>
                                         <!--<span class="block h-0.5 w-full bg-transparent group-hover:bg-blue"></span>-->
                                     </a>
                                 </li>
@@ -118,19 +104,7 @@
                         </button>
                         <ul class="mt-8 flex flex-col">
                             <li class="py-4">
-                                <a href="/aboutus"><span class="cursor-pointer font-body font-semibold text-white">About us</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/services"><span class="cursor-pointer font-body font-semibold text-white">Services</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/home"><span class="cursor-pointer font-body font-semibold text-white">Mutual Funds</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/research"><span class="cursor-pointer font-body font-semibold text-white">Research</span></a>
-                            </li>
-                            <li class="py-4">
-                                <a href="/home"><span class="cursor-pointer font-body font-semibold text-white">Trade online</span></a>
+                                <a href="/home"><span class="cursor-pointer font-body font-semibold text-white">Online operations</span></a>
                             </li>
                         </ul>
                     </div>
@@ -154,24 +128,24 @@
                     @endif
                     <div class="container bg-contact sm:pl-32 sm:pr-32 xxs:pl-8 xxs:pr-8" id="contact">
                         <div class="relative xs:top-minus-1-2 top-minus-11">
-                            <h2 class="text-color-cucchiara text-left font-bolder font-body xxs:text-3xl xs:text-3xl lg:text-5xl text-primary">
-                                Contact
+                            <h2 class="text-primary text-left font-bolder font-body xxs:text-3xl xs:text-3xl lg:text-5xl text-primary">
+                                Contact us
                             </h2>
                         </div>
                         <form class="mx-auto w-full pt-10" action="/contact" method="POST" role="form">
                             {{ csrf_field() }}
                             <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row items-start justify-center">
                                 <div class="flex flex-col md:flex-col xxs:w-full mr-4">
-                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom" placeholder="First name and Last name*" type="text" name="name" id="name"/>
-                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Email*" type="text" name="email" id="email"/>
-                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Phone*" type="text" name="phone" id="phone"/>
+                                    <input class="w-full rounded-md border-white py-5 font-body text-grey-custom" placeholder="First name and last name*" type="text" name="name" id="name"/>
+                                    <input class="w-full rounded-md border-white py-5 font-body text-grey-custom mt-8" placeholder="Email*" type="text" name="email" id="email"/>
+                                    <input class="w-full rounded-md border-white py-5 font-body text-grey-custom mt-8" placeholder="Phone number*" type="text" name="phone" id="phone"/>
                                 </div>
                                 <div class="xs:ml-0 sm:ml-4 xxs:mt-8 xs:mt-8 sm:mt-0 sm:w-full md:w-full">
-                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Message" type="text" name="message" id="message" cols="160" rows="10"></textarea>
+                                    <textarea class="w-full rounded-md border-white px-4 py-3 font-body text-grey-custom" placeholder="Message*" type="text" name="message" id="message" cols="160" rows="10"></textarea>
                                 </div>
                             </div>
                             <div class="flex items-end justify-end pb-20">
-                                <button class="mt-6 flex items-center justify-center rounded py-3 font-body text-lg font-bold text-grey-custom underline underline-offset-4">
+                                <button class="mt-6 flex items-center justify-center rounded-md py-3 font-body text-lg font-bold text-grey-custom underline underline-offset-4">
                                     Send
                                 </button>
                             </div>
@@ -181,7 +155,7 @@
                 {{-- end contact --}}
                 {{-- map --}}
                 <a href="https://goo.gl/maps/aD9gLy3DTLgALnwt5" target="blank">
-                    <div class="bg-cover bg-center bg-no-repeat xxs:h-40 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:w-full border-color-cucchiara border-y-4" style="background-image: url({{ asset('/img/mapa_footer.png')}})"></div>
+                    <div class="bg-cover bg-center bg-no-repeat xxs:h-40 xs:h-64 sm:h-64 md:h-72 lg:h-96 xl:w-full border-primary border-y-4" style="background-image: url({{ asset('/img/mapa_footer.png')}})"></div>
                 </a>
                 {{-- end map --}}
                 {{-- footer --}}
@@ -193,74 +167,47 @@
                                     <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-48" alt="logo image"/>
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
-                                    <a href="/regulations">
-                                        <div class="pt-1 font-bold">Regulations<br/>Fees and commissions<br/>Enable accounts</div>
+                                    <a href="/normativas">
+                                        <div class="pt-1 font-bold">Regulations</div>
                                     </a>
                                 </div>
                                 <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-4 sm:ml-8 md:ml-8 lg:ml-0">
-                                    info@cucchiara.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394 9330
+                                    info@cyccambios.com.ar<br/>Sarmiento 470 - 4 Piso, Of. 409<br>C.A.B.A. Argentina<br/>Tel: +54 11 4394-7423
                                 </div>
                             </div>
                             <div class="flex xxs:items-end xs:items-center sm:items-center md:items-center lg:items-start xxs:justify-end xs:justify-end sm:justify-end md:justify-end lg:justify-between xxs:flex-col-reverse xs:flex-col-reverse xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row xxs:w-2/5 xs:w-2/5 sm:w-2/5 md:w-2/5 lg:w-1/4 lg:pl-4 xl:pl-12">
-                                <div class="flex flex-row pt-1 border-t-footer xxs:mt-10 xs:mt-10 sm:mt-10 md:mt-10 lg:mt-2 xs:pb-8">
-                                    <i class="fa-brands fa-linkedin text-2xl text-color-cucchiara hover:text-white pr-6"></i>
-                                    <i class="fa-brands fa-x-twitter text-2xl text-color-cucchiara hover:text-white"></i>
-                                </div>
+                                <div class="flex flex-row pt-1 border-t-footer xxs:mt-10 xs:mt-10 sm:mt-10 md:mt-10 lg:mt-2 xs:pb-8"></div>
                                 <div class="xs:pb-8">
                                     <img src="{{ asset('/img/logos_Data Fiscal.png') }}" class="w-20" alt="footer_data_fiscal"/>
                                 </div>
                             </div>
                         </div>
-                        <div class="grid justify-items-center items-center gap-0 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-9 py-6">
+                        <div class="border-menu-line-top-moregrey mt-8"></div>
+                        <div class="grid justify-items-center items-center gap-3 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 py-6 px-24">
                             <div>
                                 <a href="https://www.byma.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_01.png') }}" class="" alt="footer_01"/></div>
+                                    <div><img src="{{ asset('/img/footer_01.png') }}" class="w-32" alt="footer_01"/></div>
                                 </a>
                             </div>
                             <div>
                                 <a href="https://cajadevalores.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_02.png') }}" class="" alt="footer_02"/></div>
+                                    <div><img src="{{ asset('/img/footer_02.png') }}" class="w-56" alt="footer_02"/></div>
                                 </a>
                             </div>
                             <div>
                                 <a href="https://www.matbarofex.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_03.png') }}" class="" alt="footer_03"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.mav-sa.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_05.png') }}" class="" alt="footer_05"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.emta.org/markets/markets-a-g/argentina/" target="blank">
-                                    <div><img src="{{ asset('/img/footer_06.png') }}" class="" alt="footer_06"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="http://www.cnv.gov.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_09.png') }}" class="" alt="footer_08"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="http://www.cadab.org.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_07.png') }}" class="" alt="footer_07"/></div>
-                                </a>
-                            </div>
-                            <div>
-                                <a href="https://www.mae.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_04.png') }}" class="lg:w-28 lg:max-w-4xl" alt="footer_04"/></div>
-                                </a>
-                            </div>
-                            <div class="">
-                                <a class="" href="https://www.bcra.gob.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_08.png') }}" class="lg:max-w-xs xl:max-w-xs md:w-full lg:w-40 xl:w-60 md:ml-0 lg:ml-12 xl:ml-20" alt="footer_07"/></div>
+                                    <div><img src="{{ asset('/img/footer_03.png') }}" class="w-32" alt="footer_03"/></div>
                                 </a>
                             </div>
                         </div>
+                        <div class="border-menu-line-top-moregrey mt-8"></div>
                         <div class="text-center py-6">
-                            <div>Comprehensive ALyC registration No. 265 CNV | ROFEX Member No. 472 | BYMA Member No. 18 | MAE Member No. 672</div>
-                            <div>© 2023 Cucchiara all rights reserved. Design and development by Folklore</div>
+                            <div>
+                                Exchange House BCRA registration no. 20113
+                            </div>
+                            <div>
+                                © 2023 Cucchiara All rights reserved. Design and development by Folklore
+                            </div>
                         </div>
                     </div>
                 </div>

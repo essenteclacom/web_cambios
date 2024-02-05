@@ -7,13 +7,13 @@
     <div>
         <div class="sm:bg-no-repeat md:bg-no-repeat lg:relative lg:bg-cover lg:bg-center lg:bg-no-repeat xl:w-full xl:max-w-full xl:overflow-hidden xl:h-auto xl:grid xl:bg-cover xl:bg-no-repeat xl:bg-top justify-center items-center" style="background-image: url('{{ asset('/img/background_home.png')}}')">
             <div class="container relative z-30 pb-28">
-                <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32">
+                <div class="xxs:text-center xs:text-center sm:text-center md:text-left lg:text-left xxs:pt-8 xs:pt-8 sm:pt-20 xl:pt-32 sm:pr-0 md:pr-60 xl:pr-64">
                     <h1 class="font-body font-bolder text-white xxs:text-2xl sm:text-4xl md:text-4xl lg:text-4xl xl:text-5xl">
-                        Soluciones financieras<br/>integrales
+                        Operaciones cambiarias simples
                     </h1>
-                    <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1">
+                    <div class="xxs:pt-12 xs:pt-12 sm:pt-12 md:pt-12 lg:pt-12 xl:pt-12 pl-0 md:pl-1 sm:pr-0 md:pr-60 xl:pr-64">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-xl">
-                            CyC CAMBIOS S.A. es una casa de cambio autorizada,<br>regulada y supervisada por el Banco Central de la República<br>Argentina (BCRA) desde 2018 y miembro de la<br><b>Cámara Argentina de Casas y Agencias de Cambio (CADECAC).</b>
+                            Accede al Mercado Libre de Cambios (MULC) en forma rápida, segura y transparente. Brindamos asesoramiento para la ejecución de operaciones de cambio. Priorizamos el cumplimiento de todas las disposiciones regulatorias vigentes.
                         </p>
                     </div>
                     {{-- <div class="absolute md:top-16 lg:-top-4 xl:-top-16 right-0 z--1">
@@ -27,7 +27,7 @@
                     </span>
                     <div class="xxs:pt-8 xs:pt-8 sm:pt-8 md:pt-8 lg:pt-8 xl:pt-8">
                         <p class="font-body text-white font-normal xxs:text-xs sm:text-lg md:text-lg lg:text-lg xl:text-2xl">
-                            <span class="font-bold">CyC CAMBIOS S.A.</span> que tiene como objeto dar acceso al mercado de cambios a las personas humanas o jurídicas y los patrimonios y otras universalidades, en adelante “clientes”, cuando verifiquen el cumplimiento de las disposiciones generales y/o específicas previstas para el concepto pertinente de la transacción, brindando atención personalizada.
+                            <span class="font-bold">CyC CAMBIOS S.A.</span>  es una casa de cambio autorizada, regulada y supervisada por el Banco Central de la República Argentina (BCRA) desde 2018 y miembro de la Cámara Argentina de Casas y Agencias de Cambio (CADECAC).
                         </p>
                     </div>
                 </div>
@@ -102,8 +102,8 @@
     {{-- need --}}
     <div class="bg-primary">
         <div class="container xxs:flex-col sm:flex-row md:flex-row lg:flex-row flex xl:flex-row  items-center justify-between py-16 md:py-20 lg:flex-row">
-            <div>
-                <h2 class="font-body font-bolder xxs:pb-8 text-4xl text-white xs:pr-0 sm:pr-40">
+            <div class="sm:px-8 xl:pr-28">
+                <h2 class="font-body xxs:pb-8 xs:text-base sm:text-2xl md:text-4xl lg:text-5xl font-bold text-white">
                     ¿Qué necesitás para realizar una operación?
                 </h2>
             </div>

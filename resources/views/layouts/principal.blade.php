@@ -44,13 +44,13 @@
                             <div class="hidden lg:block">
                                 <ul class="nav-lang flex items-center">
                                     <li class="text-primary group pl-6">
-                                        <a class="flex items-center justify-center rounded bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
+                                        <a class="flex items-center justify-center rounded-md bg-white p-custom-esp-buttom text-base font-bold uppercase hover:bg-cyan-20">
                                             ESP
                                             <i class="bx bx-chevron-down relative -right-2 text-3xl"></i>
                                         </a>
                                         <ul>
                                             <li class="text-primary text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded pr-41-custom py-1 pl-4" href="/eng">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded-md pr-41-custom py-1 pl-4" href="/eng">
                                                     ENG
                                                 </a>
                                             </li>
@@ -148,16 +148,16 @@
                             {{ csrf_field() }}
                             <div class="flex xxs:flex-col xs:flex-col sm:flex-row md:flex-row lg:flex-row items-start justify-center">
                                 <div class="flex flex-col md:flex-col xxs:w-full mr-4">
-                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" name="name" id="name"/>
-                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Email*" type="text" name="email" id="email"/>
-                                    <input class="w-full rounded border-white py-5 font-body text-grey-custom mt-8" placeholder="Teléfono*" type="text" name="phone" id="phone"/>
+                                    <input class="w-full rounded-md border-white py-5 font-body text-grey-custom" placeholder="Nombre y Apellido*" type="text" name="name" id="name"/>
+                                    <input class="w-full rounded-md border-white py-5 font-body text-grey-custom mt-8" placeholder="Email*" type="text" name="email" id="email"/>
+                                    <input class="w-full rounded-md border-white py-5 font-body text-grey-custom mt-8" placeholder="Teléfono*" type="text" name="phone" id="phone"/>
                                 </div>
                                 <div class="xs:ml-0 sm:ml-4 xxs:mt-8 xs:mt-8 sm:mt-0 sm:w-full md:w-full">
-                                    <textarea class="w-full rounded border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" type="text" name="message" id="message" cols="160" rows="10"></textarea>
+                                    <textarea class="w-full rounded-md border-white px-4 py-3 font-body text-grey-custom" placeholder="Mensaje" type="text" name="message" id="message" cols="160" rows="10"></textarea>
                                 </div>
                             </div>
                             <div class="flex items-end justify-end pb-20">
-                                <button class="mt-6 flex items-center justify-center rounded py-3 font-body text-lg font-bold text-grey-custom underline underline-offset-4">
+                                <button class="mt-6 flex items-center justify-center rounded-md py-3 font-body text-lg font-bold text-grey-custom underline underline-offset-4">
                                     Enviar
                                 </button>
                             </div>
@@ -184,7 +184,7 @@
                                     </a>
                                 </div>
                                 <div class="pt-1 mt-2 border-t-footer xxs:pb-8 xs:pb-8 xs:ml-4 sm:ml-8 md:ml-8 lg:ml-0">
-                                    info@cyccambios.com.ar<br/>Sarmiento 470, C1041 CABA<br/>Tel: +54 11 4394-7423
+                                    info@cyccambios.com.ar<br/>Sarmiento 470 - 4 Piso, Of. 409<br>C.A.B.A. Argentina<br/>Tel: +54 11 4394-7423
                                 </div>
                             </div>
                             <div class="flex xxs:items-end xs:items-center sm:items-center md:items-center lg:items-start xxs:justify-end xs:justify-end sm:justify-end md:justify-end lg:justify-between xxs:flex-col-reverse xs:flex-col-reverse xs:flex-col-reverse sm:flex-col-reverse md:flex-col-reverse lg:flex-row xl:flex-row xxs:w-2/5 xs:w-2/5 sm:w-2/5 md:w-2/5 lg:w-1/4 lg:pl-4 xl:pl-12">
@@ -194,10 +194,29 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="border-menu-line-top-moregrey mt-8">
-
+                        <div class="border-menu-line-top-moregrey mt-8"></div>
+                        <div class="grid justify-items-center items-center gap-3 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 py-6 px-24">
+                            <div>
+                                <a href="https://www.byma.com.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/footer_01.png') }}" class="w-32" alt="footer_01"/></div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://cajadevalores.com.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/footer_02.png') }}" class="w-56" alt="footer_02"/></div>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="https://www.matbarofex.com.ar/" target="_blank">
+                                    <div><img src="{{ asset('/img/footer_03.png') }}" class="w-32" alt="footer_03"/></div>
+                                </a>
+                            </div>
                         </div>
+                        <div class="border-menu-line-top-moregrey mt-8"></div>
                         <div class="text-center py-6">
+                            <div>
+                                Casa de Cambio registro BCRA nro. 20113
+                            </div>
                             <div>
                                 © 2023 Cucchiara Todos los derechos reservados. Diseño y desarollo por Folklore
                             </div>
