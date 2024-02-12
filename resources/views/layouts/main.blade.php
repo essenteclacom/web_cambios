@@ -183,10 +183,10 @@
                             </div>
                         </div>
                         <div class="border-menu-line-top-moregrey mt-8"></div>
-                        <div class="grid justify-items-center items-center gap-3 xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 py-6 px-24">
+                        <div class="grid justify-items-center items-center  xxs:grid-cols-3 xs:grid-cols-3 sm:grid-cols-3 lg:grid-cols-3 py-6">
                             <div>
                                 <a href="https://www.byma.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_01.png') }}" class="w-32" alt="footer_01"/></div>
+                                    <div><img src="{{ asset('/img/footer_01.png') }}" class="w-28" alt="footer_01"/></div>
                                 </a>
                             </div>
                             <div>
@@ -196,11 +196,11 @@
                             </div>
                             <div>
                                 <a href="https://www.matbarofex.com.ar/" target="_blank">
-                                    <div><img src="{{ asset('/img/footer_03.png') }}" class="w-32" alt="footer_03"/></div>
+                                    <div><img src="{{ asset('/img/footer_03.png') }}" class="w-28" alt="footer_03"/></div>
                                 </a>
                             </div>
                         </div>
-                        <div class="border-menu-line-top-moregrey mt-8"></div>
+                        <div class="border-menu-line-top-moregrey mt-4"></div>
                         <div class="text-center py-6">
                             <div>
                                 Exchange House BCRA registration no. 20113
