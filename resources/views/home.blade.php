@@ -117,24 +117,24 @@
                                 </div>
                                 <div class="text-center">
                                     <h3 class="font-body text-white xxs:text-base xs:text-base lg:text-2xl sm:text-xl">
-                                        Requisitos
+                                        Requirements
                                     </h3>
                                 </div>
                             </div>
                         </div>
                         <div class="back-card">
                             <div class="gradient-primary rounded-1 shadow xxs:h-40 xs:h-44 xxs:w-40 xs:w-48 sm:h-48 sm:w-48 md:mr-8 md:w-48 lg:h-64 lg:w-72">
-                                <div class="text-left text-white xs:px-2 sm:px-2 xxs:pt-1 xs:pt-1 sm:pt-1 md:pt-1 md:px-2 lg:pl-5 lg:pt-2">
+                                <div class="text-left text-white xs:px-2 sm:px-2 xxs:pt-4 xs:pt-4 sm:pt-4 md:pt-4 md:px-2 lg:pl-5 lg:pt-4">
                                     <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
-                                        <b>· Argeninos y Residentes:</b> DNI vigente.<br/>
-                                        <b>· Residentes Precarios:</b> Resolución DNM y documento especificado.<br/>
-                                        <b>· No Residentes:</b> Pasaporte.<br/>
-                                        <b>· Excepciones para Mercosur:</b> DNI, Cédula o documento de viaje con constancia de ingreso sellada por DNM.<br/>
+                                        <b>· Argentinians and Residents:</b> Valid National Identity Document.<br/>
+                                        <b>· Temporary Residents:</b> National Migration Directorate resolution and specified document.<br/>
+                                        <b>· Non-Residents:</b> Passport.<br/>
+                                        <b>· Mercosur Citizens:</b> DNI, ID Card, or travel document with entry confirmation stamped by DNM.<br/>
                                     </p>
                                 </div>
                                 <div class="text-left text-white pt-2 lg:pl-2">
                                     <p class="font-body xxs:text-xxs xs:text-xxs sm:text-xxs lg:text-xs">
-                                        <u>Prevención de actividades ilícitas:</u>  Medidas para evitar lavado de activos, financiamiento del terrorismo, y otras actividades ilícitas. Las transacciones de montos elevados requieren documentación adicional que debe permitir constatar la actividad económica y el origen de los fondos.
+                                        Transactions involving significant amounts require additional documentation to verify economic activity and the source of funds.
                                     </p>
                                 </div>
                                 <div class="text-right xs:pt-0-5 lg:pt-8 px-9 pb-4 underline underline-offset-4">

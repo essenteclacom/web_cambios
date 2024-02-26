@@ -36,7 +36,7 @@
                 <div class="w-full z-50 top-0 py-3 sm:py-5 relative bg-white justify-center">
                     <div class="container flex items-center justify-between">
                         <div>
-                            <a href="/inicio">
+                            <a href="/home">
                                 <img src="{{ asset('/img/Logo_Color-01.png') }}" class=" xxs:w-28 xs:w-48 sm:w-60 md:w-60 lg:w-64 xl:w-60" alt="logo image"/>
                             </a>
                         </div>
@@ -50,7 +50,7 @@
                                         </a>
                                         <ul>
                                             <li class="text-primary text-base font-bold uppercase w-20">
-                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded-md pr-41-custom py-1 pl-4" href="/eng">
+                                                <a class="hover:bg-cyan-20 flex items-center justify-center rounded-md pr-41-custom py-1 pl-4" href="/esp">
                                                     ESP
                                                 </a>
                                             </li>
@@ -167,7 +167,7 @@
                                     <img src="{{ asset('/img/Logo_Color-01.png') }}" class="w-48" alt="logo image"/>
                                 </div>
                                 <div class="mt-2 border-t-footer xxs:pb-8 xs:pb-8">
-                                    <a href="/normativas">
+                                    <a href="/regulations">
                                         <div class="pt-1 font-bold">Regulations</div>
                                     </a>
                                 </div>

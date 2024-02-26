@@ -16,21 +16,10 @@ class EngController extends Controller {
             case "inicio":
                 return redirect('home');
                 break;
-            case "acercade":
-                return redirect('about');
-                break;
-            case "servicios":
-                return redirect('services');
-                break;
-            case "investigacion":
-                return redirect('research');
-                break;
             case "normativas":
                 return redirect('regulations');
                 break;
-            case "seleccionartipocuenta":
-                return redirect('selectaccounttype');
-                break;
+
         }
     }
 }

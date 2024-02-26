@@ -16,20 +16,8 @@ class EspController extends Controller {
             case "home":
                 return redirect('inicio');
                 break;
-            case "about":
-                return redirect('acercade');
-                break;
-            case "services":
-                return redirect('servicios');
-                break;
-            case "research":
-                return redirect('investigacion');
-                break;
             case "regulations":
                 return redirect('normativas');
-                break;
-            case "selectaccounttype":
-                return redirect('seleccionartipocuenta');
                 break;
         }
     }

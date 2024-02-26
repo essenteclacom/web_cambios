@@ -32,16 +32,16 @@
                         </div>
                     </div>
                     <div class="xxs:pt-10 xs:pt-10 sm:pt-0">
-                        <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-md w-72 mb-2">
+                        <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                             Registro de Casas<br>de Cambio
                         </a>
-                        <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-md w-72 mb-2">
+                        <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                             Normas de Exterior y<br>Cambios
                         </a>
-                        <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-md w-72 mb-2">
+                        <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                             Portal de Usuarios<br>Finacieros
                         </a>
-                        <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-md w-72 mb-2">
+                        <a class="block text-primary bg-button-reg text-center text-base font-body font-bold py-4 px-8 rounded-xl w-72 mb-2">
                             Normas de Protección<br>de los Usuarios
                         </a>
                     </div>
